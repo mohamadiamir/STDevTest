@@ -28,7 +28,6 @@
 		69EF18AD2881B69C00B9CC3D /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EF18A02881B69C00B9CC3D /* HTTPMethod.swift */; };
 		69EF18AE2881B69C00B9CC3D /* ResponseLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EF18A22881B69C00B9CC3D /* ResponseLog.swift */; };
 		69EF18AF2881B69C00B9CC3D /* URLRequestLoggableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EF18A32881B69C00B9CC3D /* URLRequestLoggableProtocol.swift */; };
-		69EF18B02881B69C00B9CC3D /* RequestCallbackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EF18A52881B69C00B9CC3D /* RequestCallbackModel.swift */; };
 		69EF18B12881B69C00B9CC3D /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EF18A72881B69C00B9CC3D /* RequestError.swift */; };
 		69EF18B22881B69C00B9CC3D /* RequestManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EF18A92881B69C00B9CC3D /* RequestManagerProtocol.swift */; };
 		69EF18B52881B7FF00B9CC3D /* ContactsListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EF18B42881B7FF00B9CC3D /* ContactsListService.swift */; };
@@ -73,7 +72,6 @@
 		69EF18A02881B69C00B9CC3D /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		69EF18A22881B69C00B9CC3D /* ResponseLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseLog.swift; sourceTree = "<group>"; };
 		69EF18A32881B69C00B9CC3D /* URLRequestLoggableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestLoggableProtocol.swift; sourceTree = "<group>"; };
-		69EF18A52881B69C00B9CC3D /* RequestCallbackModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestCallbackModel.swift; sourceTree = "<group>"; };
 		69EF18A72881B69C00B9CC3D /* RequestError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
 		69EF18A92881B69C00B9CC3D /* RequestManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManagerProtocol.swift; sourceTree = "<group>"; };
 		69EF18B42881B7FF00B9CC3D /* ContactsListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListService.swift; sourceTree = "<group>"; };
@@ -279,7 +277,6 @@
 		69EF189B2881B69C00B9CC3D /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				69EF18A42881B69C00B9CC3D /* Model */,
 				69EF18A82881B69C00B9CC3D /* Protocols */,
 				69EF18A12881B69C00B9CC3D /* APILogger */,
 				69EF189C2881B69C00B9CC3D /* ResponseValidator */,
@@ -306,14 +303,6 @@
 				69EF18A32881B69C00B9CC3D /* URLRequestLoggableProtocol.swift */,
 			);
 			path = APILogger;
-			sourceTree = "<group>";
-		};
-		69EF18A42881B69C00B9CC3D /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				69EF18A52881B69C00B9CC3D /* RequestCallbackModel.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		69EF18A82881B69C00B9CC3D /* Protocols */ = {
@@ -516,7 +505,6 @@
 				69EF18F2288290EF00B9CC3D /* Dictionary+Extension.swift in Sources */,
 				69EF18AB2881B69C00B9CC3D /* ResponseValidator.swift in Sources */,
 				69EF18B22881B69C00B9CC3D /* RequestManagerProtocol.swift in Sources */,
-				69EF18B02881B69C00B9CC3D /* RequestCallbackModel.swift in Sources */,
 				69EF187B288181CC00B9CC3D /* AppCoordinator.swift in Sources */,
 				69EF18D62881E1B400B9CC3D /* String+Extension.swift in Sources */,
 				69EF18DD2881EF9000B9CC3D /* ContactVC.swift in Sources */,
